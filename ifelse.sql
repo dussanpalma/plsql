@@ -10,7 +10,9 @@ BEGIN
         IF valor > 50 THEN
             EXIT;
         END IF;
-    END LOOP;
+    END LOOP;  
+
+-- Prueba de Local a Repositorio
 
     dbms_output.put_line('valor final: ' || valor);
 END;
